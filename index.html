@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio von [Dein Name] – Mediamatiker EFZ, Video- & Fotograf aus Zürich. Professionelle Videoproduktionen und Fotografie für Unternehmen und kreative Projekte." />
+  <meta name="keywords" content="Mediamatiker, Video, Fotograf, Portfolio, Zürich, Schweiz, Videoproduktion" />
+  <meta name="author" content="[Dein Name]" />
+  <meta property="og:title" content="[Dein Name] – Video & Fotograf" />
+  <meta property="og:description" content="Portfolio – Mediamatiker EFZ, Video- & Fotograf aus Zürich." />
+  <meta property="og:type" content="website" />
+  <title>[Dein Name] – Video & Fotograf</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Hauptnavigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Zurück zur Startseite">
+        <span class="logo-name">[Dein Name]</span>
+        <span class="logo-dot">.</span>
+      </a>
+      <ul class="nav-menu" id="navMenu" role="list">
+        <li><a href="#about" class="nav-link">Über mich</a></li>
+        <li><a href="#resume" class="nav-link">Lebenslauf</a></li>
+        <li><a href="#projects" class="nav-link">Projekte</a></li>
+        <li><a href="#awards" class="nav-link">Erfolge</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Kontakt</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home" aria-label="Hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge hero-anim hero-anim-1">
+          <span class="badge-dot"></span>
+          <span>Verfügbar ab Sommer 2026</span>
+        </div>
+        <h1 class="hero-headline hero-anim hero-anim-2">
+          Ich erzähle Geschichten <br />
+          <em>durch Bild und Film.</em>
+        </h1>
+        <p class="hero-subtitle hero-anim hero-anim-3">Mediamatiker EFZ · Video- &amp; Fotograf</p>
+        <p class="hero-description hero-anim hero-anim-4">
+          Mit kreativem Blick, technischem Verständnis und einem hohen Qualitätsanspruch produziere ich visuelle Inhalte, die Menschen erreichen und Marken stärken.
+        </p>
+        <div class="hero-buttons hero-anim hero-anim-5">
+          <a href="#projects" class="btn btn-primary">
+            <span>Projekte ansehen</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-outline">Kontakt aufnehmen</a>
+        </div>
+        <div class="hero-stats hero-anim hero-anim-5">
+          <div class="stat">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Jahre Erfahrung</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-num">20+</span>
+            <span class="stat-label">Projekte</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Leidenschaft</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image hero-anim hero-anim-image" aria-hidden="true">
+        <div class="hero-img-wrapper">
+          <!-- Ersetze dieses div durch: <img src="images/portrait.jpg" alt="[Dein Name] – Video- & Fotograf" /> -->
+          <div class="portrait-placeholder">
+            <svg class="portrait-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+              <circle cx="12" cy="8" r="4"/>
+              <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+            </svg>
+            <p class="portrait-hint">portrait.jpg<br /><small>Bild hier ersetzen</small></p>
+          </div>
+          <div class="hero-img-decoration" aria-hidden="true"></div>
+          <div class="hero-img-badge">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+            Video &amp; Foto
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-label="Scrollen">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ÜBER MICH ========== -->
+  <section class="about section" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Über mich</span>
+        <h2 id="about-heading" class="section-title">Wer steckt hinter den Bildern?</h2>
+        <p class="section-subtitle">Ich bin mehr als ein Kameramann – ich bin ein Geschichtenerzähler.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass reveal reveal-left">
+          <div class="about-card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+          </div>
+          <h3>Wer ich bin</h3>
+          <p>
+            Ich bin [Dein Name], Mediamatiker EFZ in Ausbildung aus Zürich. Seit Jahren fasziniert mich die Kraft von Bildern und Filmen – die Fähigkeit, in Sekundenbruchteilen Emotionen zu wecken, Geschichten zu erzählen und Menschen zu verbinden.
+          </p>
+          <p>
+            Angefangen mit der ersten Kamera, habe ich meine Leidenschaft zur Profession entwickelt. Heute produziere ich visuelle Inhalte, die nicht nur schön aussehen, sondern auch eine Botschaft tragen.
+          </p>
+        </div>
+
+        <div class="about-card glass reveal reveal-up">
+          <div class="about-card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9S3 16.97 3 12 7.03 3 12 3s9 4.03 9 9z"/></svg>
+          </div>
+          <h3>Was ich mitbringe</h3>
+          <ul class="about-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+              Mediamatiker EFZ
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+              Video- &amp; Fotoproduktion
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+              Storytelling &amp; Konzeption
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+              Kreativität &amp; visuelles Gespür
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+              Technisches Verständnis
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+              Teamfähigkeit &amp; Eigeninitiative
+            </li>
+          </ul>
+        </div>
+
+        <div class="about-card glass reveal reveal-right">
+          <div class="about-card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <h3>Wie ich arbeite</h3>
+          <div class="work-tags">
+            <span class="tag">Strukturiert</span>
+            <span class="tag">Zuverlässig</span>
+            <span class="tag">Lösungsorientiert</span>
+            <span class="tag">Detailorientiert</span>
+            <span class="tag">Kreativ</span>
+            <span class="tag">Qualitätsbewusst</span>
+            <span class="tag">Eigenverantwortlich</span>
+            <span class="tag">Kommunikativ</span>
+          </div>
+          <p class="about-work-text">
+            Ich bringe Projekte strukturiert und mit voller Hingabe zum Abschluss. Dabei verbinde ich technische Präzision mit kreativem Gespür – und verliere die Bedürfnisse meiner Auftraggeber nie aus dem Blick.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LEBENSLAUF ========== -->
+  <section class="resume section" id="resume" aria-labelledby="resume-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Lebenslauf</span>
+        <h2 id="resume-heading" class="section-title">Mein Werdegang</h2>
+        <p class="section-subtitle">Ausbildung, Erfahrungen und Meilensteine, die mich geprägt haben.</p>
+      </div>
+
+      <div class="timeline" role="list">
+
+        <div class="timeline-item reveal reveal-left" role="listitem">
+          <div class="timeline-marker" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">2022 – 2026</span>
+            <h3>Mediamatiker EFZ</h3>
+            <p class="timeline-company">Beispiel AG · Zürich</p>
+            <p>Vierjährige Berufslehre mit Schwerpunkt auf visuelle Kommunikation, Video- und Fotoproduktion, Webdesign, Marketing und Projektmanagement. Abschluss mit eidgenössischem Fähigkeitszeugnis.</p>
+            <div class="timeline-tags">
+              <span>Video</span><span>Fotografie</span><span>Marketing</span><span>Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-right reveal reveal-right" role="listitem">
+          <div class="timeline-marker" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">Sommer 2024</span>
+            <h3>Praktikum Video Production</h3>
+            <p class="timeline-company">Creative Studio GmbH · Zürich</p>
+            <p>Eigenständige Konzeption und Produktion von Videocontent für Social Media, Mitarbeit bei Kundenprojekten, Schnitt und Color Grading mit Premiere Pro und DaVinci Resolve.</p>
+            <div class="timeline-tags">
+              <span>Premiere Pro</span><span>DaVinci Resolve</span><span>Social Media</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal reveal-left" role="listitem">
+          <div class="timeline-marker" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023</span>
+            <h3>Schulkurzfilm „Schatten"</h3>
+            <p class="timeline-company">Schulprojekt · Regie &amp; Kamera</p>
+            <p>Konzeption, Regie und Kameraführung beim Schulkurzfilm „Schatten". Verantwortlich für den gesamten visuellen Stil, Kameraarbeit, Beleuchtung und Schnitt. Ausgezeichnet als bester Schulfilm des Jahrgangs.</p>
+            <div class="timeline-tags">
+              <span>Regie</span><span>Kamera</span><span>Schnitt</span><span>Beleuchtung</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-right reveal reveal-right" role="listitem">
+          <div class="timeline-marker" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">2022</span>
+            <h3>Vertiefung Fotografie</h3>
+            <p class="timeline-company">Eigenständig · Portrait &amp; Event</p>
+            <p>Intensive Auseinandersetzung mit Portrait- und Eventfotografie. Aufbau eines eigenen Stils, Entwicklung von Kenntnissen in Bildkomposition, Licht und Nachbearbeitung mit Lightroom und Photoshop.</p>
+            <div class="timeline-tags">
+              <span>Lightroom</span><span>Photoshop</span><span>Portrait</span><span>Event</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal reveal-left" role="listitem">
+          <div class="timeline-marker" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">2021</span>
+            <h3>Erster Schritt: Die erste Kamera</h3>
+            <p class="timeline-company">Persönlicher Meilenstein</p>
+            <p>Beginn der visuellen Reise – mit der ersten eigenen Kamera entstand die Leidenschaft für Fotografie und Film. Erste Experimente mit Licht, Komposition und Bewegtbild.</p>
+            <div class="timeline-tags">
+              <span>Fotografie</span><span>Video</span><span>Anfänge</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJEKTE ========== -->
+  <section class="projects section" id="projects" aria-labelledby="projects-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Portfolio</span>
+        <h2 id="projects-heading" class="section-title">Meine Arbeiten</h2>
+        <p class="section-subtitle">Ausgewählte Projekte, die meine Fähigkeiten und meinen Stil zeigen.</p>
+      </div>
+
+      <div class="projects-filter reveal" role="tablist" aria-label="Projektfilter">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Alle</button>
+        <button class="filter-btn" data-filter="video" role="tab" aria-selected="false">Video</button>
+        <button class="filter-btn" data-filter="fotografie" role="tab" aria-selected="false">Fotografie</button>
+        <button class="filter-btn" data-filter="kurzfilm" role="tab" aria-selected="false">Kurzfilme</button>
+        <button class="filter-btn" data-filter="social" role="tab" aria-selected="false">Social Media</button>
+        <button class="filter-btn" data-filter="kunde" role="tab" aria-selected="false">Kundenprojekte</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <article class="project-card reveal" data-category="kurzfilm" data-index="0">
+          <div class="project-thumb" style="--thumb-color: #80c2cc">
+            <div class="project-thumb-inner">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-overlay-btn" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Kurzfilm</span>
+            <h3>„Schatten" – Kurzfilm</h3>
+            <p>Preisgekrönter Schulkurzfilm über Identität und Selbstfindung.</p>
+            <button class="project-link" data-project="0" aria-label="Projekt Schatten ansehen">Details ansehen →</button>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="video" data-index="1">
+          <div class="project-thumb" style="--thumb-color: #1a1a2d">
+            <div class="project-thumb-inner">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="currentColor"/></svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-overlay-btn" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Video</span>
+            <h3>Produktvideo – Kampagne</h3>
+            <p>Professionelles Produktionsvideo für eine lokale Marke.</p>
+            <button class="project-link" data-project="1" aria-label="Projekt Produktvideo ansehen">Details ansehen →</button>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="fotografie" data-index="2">
+          <div class="project-thumb" style="--thumb-color: #4a9aa5">
+            <div class="project-thumb-inner">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-overlay-btn" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Fotografie</span>
+            <h3>Portrait-Serie 2024</h3>
+            <p>Emotionale Portraitfotografie – Licht, Ausdruck, Tiefe.</p>
+            <button class="project-link" data-project="2" aria-label="Projekt Portrait-Serie ansehen">Details ansehen →</button>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="social" data-index="3">
+          <div class="project-thumb" style="--thumb-color: #d4826a">
+            <div class="project-thumb-inner">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-1.96C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 1.96C1 8.15 1 12 1 12s0 3.85.46 5.58a2.78 2.78 0 0 0 1.94 1.94C5.12 20 12 20 12 20s6.88 0 8.6-.48a2.78 2.78 0 0 0 1.94-1.94C23 15.85 23 12 23 12s0-3.85-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor"/></svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-overlay-btn" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Social Media</span>
+            <h3>Social-Media-Content Kampagne</h3>
+            <p>Wöchentlicher Videocontent für Reels und Stories.</p>
+            <button class="project-link" data-project="3" aria-label="Projekt Social Media ansehen">Details ansehen →</button>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="kunde" data-index="4">
+          <div class="project-thumb" style="--thumb-color: #2d4a3e">
+            <div class="project-thumb-inner">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-overlay-btn" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Kundenprojekt</span>
+            <h3>Event-Dokumentation</h3>
+            <p>Vollständige Foto- und Videodokumentation eines Firmeneventss.</p>
+            <button class="project-link" data-project="4" aria-label="Projekt Event-Dokumentation ansehen">Details ansehen →</button>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="kurzfilm" data-index="5">
+          <div class="project-thumb" style="--thumb-color: #5a4a8a">
+            <div class="project-thumb-inner">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <div class="project-overlay">
+              <div class="project-overlay-btn" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Kurzfilm</span>
+            <h3>„Licht &amp; Zeit" – Kurzfilm</h3>
+            <p>Experimenteller Kurzfilm über Wahrnehmung und den Lauf der Zeit.</p>
+            <button class="project-link" data-project="5" aria-label="Projekt Licht und Zeit ansehen">Details ansehen →</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECT MODAL ========== -->
+  <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Modal schliessen">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="modal-media" id="modalMedia" aria-hidden="true"></div>
+      <div class="modal-body">
+        <div class="modal-meta" id="modalMeta"></div>
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-details" id="modalDetails"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== AUSZEICHNUNGEN ========== -->
+  <section class="awards section" id="awards" aria-labelledby="awards-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Auszeichnungen</span>
+        <h2 id="awards-heading" class="section-title">Erfolge &amp; Leistungen</h2>
+        <p class="section-subtitle">Was mich ausserhalb des Alltags antreibt und auszeichnet.</p>
+      </div>
+
+      <div class="awards-subsection">
+        <h3 class="awards-subtitle reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          Kurzfilm-Projekte
+        </h3>
+        <div class="awards-grid">
+          <div class="award-card glass reveal reveal-left">
+            <div class="award-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+            </div>
+            <div class="award-content">
+              <span class="award-year">2023</span>
+              <h4>„Schatten"</h4>
+              <p>Schulkurzfilm · Regie &amp; Kamera · Ausgezeichnet als bester Film des Jahrgangs</p>
+              <span class="award-badge">Bester Film</span>
+            </div>
+          </div>
+          <div class="award-card glass reveal reveal-up">
+            <div class="award-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+            </div>
+            <div class="award-content">
+              <span class="award-year">2024</span>
+              <h4>„Licht &amp; Zeit"</h4>
+              <p>Experimenteller Kurzfilm · Konzept, Regie, Schnitt und Musik</p>
+              <span class="award-badge">Eigenproduktion</span>
+            </div>
+          </div>
+          <div class="award-card glass reveal reveal-right">
+            <div class="award-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+            </div>
+            <div class="award-content">
+              <span class="award-year">2024</span>
+              <h4>„Wege"</h4>
+              <p>Dokumentarischer Kurzfilm über junge Menschen in der Schweiz · Festivalbeitrag</p>
+              <span class="award-badge">Festivalbeitrag</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="awards-subsection">
+        <h3 class="awards-subtitle reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Tänzerische Erfolge
+        </h3>
+        <div class="awards-grid">
+          <div class="award-card award-highlight glass reveal reveal-left">
+            <div class="award-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div class="award-content">
+              <span class="award-year">2023</span>
+              <h4>Schweizermeisterschaft Tanz</h4>
+              <p>2. Platz in der Kategorie [Tanzstil] · Nationale Meisterschaft der Schweiz</p>
+              <span class="award-badge award-badge-gold">2. Platz 🥈</span>
+            </div>
+          </div>
+          <div class="award-card glass reveal reveal-up">
+            <div class="award-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 15c2.21 0 4-1.79 4-4V5c0-2.21-1.79-4-4-4S8 2.79 8 5v6c0 2.21 1.79 4 4 4z"/><path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5"/><path d="M12 19v4M8 23h8"/></svg>
+            </div>
+            <div class="award-content">
+              <span class="award-year">2024</span>
+              <h4>Internationaler Tanzwettbewerb Basel</h4>
+              <p>Teilnahme und Finalplatzierung beim internationalen Wettbewerb in Basel</p>
+              <span class="award-badge">International</span>
+            </div>
+          </div>
+          <div class="award-card glass reveal reveal-right">
+            <div class="award-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <div class="award-content">
+              <span class="award-year">2023</span>
+              <h4>Bühnenauftritt – Opernhaus Zürich</h4>
+              <p>Aufführung am Opernhaus Zürich als Teil einer Ensemble-Produktion</p>
+              <span class="award-badge">Bühne</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="skills section" id="skills" aria-labelledby="skills-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Kompetenzen</span>
+        <h2 id="skills-heading" class="section-title">Skills &amp; Fähigkeiten</h2>
+        <p class="section-subtitle">Tools, Techniken und persönliche Stärken, die ich in jedes Projekt einbringe.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skills-category glass reveal reveal-left">
+          <div class="skills-cat-header">
+            <div class="skills-cat-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+            </div>
+            <h3>Video</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>Premiere Pro</span><span class="skill-pct">90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Premiere Pro 90%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>After Effects</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="After Effects 80%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>DaVinci Resolve</span><span class="skill-pct">75%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="DaVinci Resolve 75%"></div></div>
+          </div>
+        </div>
+
+        <div class="skills-category glass reveal reveal-up">
+          <div class="skills-cat-header">
+            <div class="skills-cat-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </div>
+            <h3>Fotografie</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>Portrait</span><span class="skill-pct">95%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="95" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="Portrait 95%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>Event</span><span class="skill-pct">85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="85" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Event 85%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>Studio</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Studio 80%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>Bildbearbeitung</span><span class="skill-pct">88%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="88" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="Bildbearbeitung 88%"></div></div>
+          </div>
+        </div>
+
+        <div class="skills-category glass reveal reveal-up">
+          <div class="skills-cat-header">
+            <div class="skills-cat-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </div>
+            <h3>Design</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>Photoshop</span><span class="skill-pct">85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="85" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Photoshop 85%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>Illustrator</span><span class="skill-pct">70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="70" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Illustrator 70%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>InDesign</span><span class="skill-pct">65%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="65" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" aria-label="InDesign 65%"></div></div>
+          </div>
+        </div>
+
+        <div class="skills-category glass reveal reveal-right">
+          <div class="skills-cat-header">
+            <div class="skills-cat-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Persönliche Kompetenzen</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>Kreativität</span><span class="skill-pct">95%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="95" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="Kreativität 95%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>Kommunikation</span><span class="skill-pct">90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Kommunikation 90%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>Teamarbeit</span><span class="skill-pct">92%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="92" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-label="Teamarbeit 92%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>Projektmanagement</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-value="80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Projektmanagement 80%"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== KONTAKT ========== -->
+  <section class="contact section" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Kontakt</span>
+        <h2 id="contact-heading" class="section-title">Lass uns zusammenarbeiten</h2>
+        <p class="section-subtitle">Ich freue mich auf spannende Projekte und neue berufliche Möglichkeiten.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-info reveal reveal-left">
+          <p class="contact-message">
+            Ich freue mich auf spannende Projekte, kreative Herausforderungen und neue berufliche Möglichkeiten <strong>ab Sommer 2026</strong>. Ob Festanstellung, Praktikum oder Freelance-Projekt – ich bin offen für Gespräche.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">E-Mail</span>
+                <!-- Ersetze mit deiner E-Mail -->
+                <a href="mailto:hallo@portfolio.ch" class="contact-value">hallo@portfolio.ch</a>
+              </div>
+            </li>
+            <li>
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Telefon</span>
+                <!-- Ersetze mit deiner Nummer -->
+                <a href="tel:+41791234567" class="contact-value">+41 79 123 45 67</a>
+              </div>
+            </li>
+            <li>
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Standort</span>
+                <span class="contact-value">Zürich, Schweiz</span>
+              </div>
+            </li>
+            <li>
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <!-- Ersetze mit deinem LinkedIn-Profil -->
+                <a href="#" class="contact-value" target="_blank" rel="noopener">linkedin.com/in/deinname</a>
+              </div>
+            </li>
+            <li>
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Instagram</span>
+                <!-- Ersetze mit deinem Instagram-Handle -->
+                <a href="#" class="contact-value" target="_blank" rel="noopener">@deinname</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-form-wrapper reveal reveal-right">
+          <form class="contact-form glass" id="contactForm" novalidate aria-label="Kontaktformular">
+            <div class="form-group">
+              <input type="text" id="formName" name="name" required autocomplete="name" placeholder=" " />
+              <label for="formName">Dein Name *</label>
+              <div class="form-line" aria-hidden="true"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" id="formCompany" name="company" autocomplete="organization" placeholder=" " />
+              <label for="formCompany">Unternehmen</label>
+              <div class="form-line" aria-hidden="true"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" id="formEmail" name="email" required autocomplete="email" placeholder=" " />
+              <label for="formEmail">E-Mail Adresse *</label>
+              <div class="form-line" aria-hidden="true"></div>
+            </div>
+            <div class="form-group">
+              <textarea id="formMessage" name="message" required rows="5" placeholder=" "></textarea>
+              <label for="formMessage">Deine Nachricht *</label>
+              <div class="form-line" aria-hidden="true"></div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+              <span class="btn-text">Nachricht senden</span>
+              <span class="btn-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </span>
+              <span class="btn-loading" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+              </span>
+            </button>
+          </form>
+          <div class="form-success" id="formSuccess" role="alert" aria-live="polite">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+            <h3>Nachricht gesendet!</h3>
+            <p>Vielen Dank für deine Nachricht. Ich melde mich so bald wie möglich bei dir.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-name">[Dein Name]</span><span class="logo-dot">.</span>
+          <p>Mediamatiker EFZ · Video- &amp; Fotograf · Zürich</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="#about">Über mich</a>
+          <a href="#projects">Projekte</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Kontakt</a>
+        </nav>
+        <p class="footer-copy">© <span id="footerYear"></span> [Dein Name]. Alle Rechte vorbehalten.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
