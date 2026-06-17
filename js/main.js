@@ -250,8 +250,20 @@ function initContactForm(){
       return;
     }
     btn.classList.add('loading');btn.disabled=true;
-    // Formspree: ersetze fetch-Kommentar mit deiner Form-ID
-    setTimeout(()=>{form.style.display='none';success.classList.add('visible');},1800);
+    try {
+      const data=new FormData(form);
+      const res=await fetch('https://api.web3forms.com/submit',{method:'POST',body:data});
+      const json=await res.json();
+      if(json.success){
+        form.style.display='none';
+        success.classList.add('visible');
+      } else {
+        throw new Error(json.message);
+      }
+    } catch(err) {
+      btn.classList.remove('loading');btn.disabled=false;
+      alert('Fehler beim Senden. Bitte schreib direkt an ajaih.tharmalingam@gmail.com');
+    }
   });
 }
 
