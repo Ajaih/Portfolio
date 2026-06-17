@@ -85,7 +85,7 @@
       </div>
       <div class="hero-image hero-anim hero-anim-image" aria-hidden="false">
         <div class="hero-img-wrapper">
-          <img src="images/portrait.jpg" alt="Ajaih Tharmalingam – Video- & Fotograf" class="portrait-img" />
+          <img src="portrait.jpg" alt="Ajaih Tharmalingam – Video- & Fotograf" class="portrait-img" />
           <div class="hero-img-decoration" aria-hidden="true"></div>
           <div class="hero-img-glow" aria-hidden="true"></div>
           <div class="hero-img-badge">
@@ -171,7 +171,7 @@
             <div class="tl-line-top" aria-hidden="true"></div>
             <div class="tl-dot" aria-hidden="true"></div>
             <div class="tl-year">2025</div>
-            <div class="tl-now">JETZT</div>
+            <div class="tl-range">– heute</div>
             <div class="tl-line-bottom" aria-hidden="true"></div>
           </div>
           <div class="tl-right">
@@ -190,6 +190,7 @@
             <div class="tl-line-top" aria-hidden="true"></div>
             <div class="tl-dot" aria-hidden="true"></div>
             <div class="tl-year">2024</div>
+            <div class="tl-range">– heute</div>
             <div class="tl-line-bottom" aria-hidden="true"></div>
           </div>
           <div class="tl-right">
@@ -527,7 +528,11 @@
           </ul>
         </div>
         <div class="contact-form-wrapper reveal reveal-right">
-          <form class="contact-form glass" id="contactForm" novalidate aria-label="Kontaktformular">
+          <form class="contact-form glass" id="contactForm" novalidate aria-label="Kontaktformular" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="WEB3FORMS_KEY" />
+            <input type="hidden" name="subject" value="Neue Nachricht von deiner Portfolio-Webseite" />
+            <input type="hidden" name="from_name" value="Portfolio Kontaktformular" />
+            <input type="checkbox" name="botcheck" style="display:none" />
             <div class="form-group"><input type="text" id="formName" name="name" required autocomplete="name" placeholder=" " /><label for="formName">Dein Name *</label><div class="form-line" aria-hidden="true"></div></div>
             <div class="form-group"><input type="text" id="formCompany" name="company" autocomplete="organization" placeholder=" " /><label for="formCompany">Unternehmen</label><div class="form-line" aria-hidden="true"></div></div>
             <div class="form-group"><input type="email" id="formEmail" name="email" required autocomplete="email" placeholder=" " /><label for="formEmail">E-Mail Adresse *</label><div class="form-line" aria-hidden="true"></div></div>
